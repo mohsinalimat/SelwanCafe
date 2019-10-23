@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFF55F9B2360336E004D0FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55F9A2360336E004D0FD9 /* AppDelegate.swift */; };
+		CFF55F9D2360336E004D0FD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55F9C2360336E004D0FD9 /* SceneDelegate.swift */; };
+		CFF55F9F2360336E004D0FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55F9E2360336E004D0FD9 /* ViewController.swift */; };
+		CFF55FA22360336E004D0FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FA02360336E004D0FD9 /* Main.storyboard */; };
+		CFF55FA52360336E004D0FD9 /* SelwanCafe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FA32360336E004D0FD9 /* SelwanCafe.xcdatamodeld */; };
+		CFF55FA723603371004D0FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FA623603371004D0FD9 /* Assets.xcassets */; };
+		CFF55FAA23603371004D0FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FA823603371004D0FD9 /* LaunchScreen.storyboard */; };
+		CFF55FB523603372004D0FD9 /* SelwanCafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FB423603372004D0FD9 /* SelwanCafeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFF55FB123603372004D0FD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF55F8F2360336E004D0FD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF55F962360336E004D0FD9;
+			remoteInfo = SelwanCafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFF55F972360336E004D0FD9 /* SelwanCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelwanCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF55F9A2360336E004D0FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF55F9C2360336E004D0FD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFF55F9E2360336E004D0FD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFF55FA12360336E004D0FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF55FA42360336E004D0FD9 /* SelwanCafe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SelwanCafe.xcdatamodel; sourceTree = "<group>"; };
+		CFF55FA623603371004D0FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF55FA923603371004D0FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF55FAB23603371004D0FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF55FB023603372004D0FD9 /* SelwanCafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelwanCafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF55FB423603372004D0FD9 /* SelwanCafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelwanCafeTests.swift; sourceTree = "<group>"; };
+		CFF55FB623603372004D0FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF55F942360336E004D0FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF55FAD23603372004D0FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFF55F8E2360336E004D0FD9 = {
+			isa = PBXGroup;
+			children = (
+				CFF55F992360336E004D0FD9 /* SelwanCafe */,
+				CFF55FB323603372004D0FD9 /* SelwanCafeTests */,
+				CFF55F982360336E004D0FD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF55F982360336E004D0FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55F972360336E004D0FD9 /* SelwanCafe.app */,
+				CFF55FB023603372004D0FD9 /* SelwanCafeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF55F992360336E004D0FD9 /* SelwanCafe */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55F9A2360336E004D0FD9 /* AppDelegate.swift */,
+				CFF55F9C2360336E004D0FD9 /* SceneDelegate.swift */,
+				CFF55F9E2360336E004D0FD9 /* ViewController.swift */,
+				CFF55FA02360336E004D0FD9 /* Main.storyboard */,
+				CFF55FA623603371004D0FD9 /* Assets.xcassets */,
+				CFF55FA823603371004D0FD9 /* LaunchScreen.storyboard */,
+				CFF55FAB23603371004D0FD9 /* Info.plist */,
+				CFF55FA32360336E004D0FD9 /* SelwanCafe.xcdatamodeld */,
+			);
+			path = SelwanCafe;
+			sourceTree = "<group>";
+		};
+		CFF55FB323603372004D0FD9 /* SelwanCafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FB423603372004D0FD9 /* SelwanCafeTests.swift */,
+				CFF55FB623603372004D0FD9 /* Info.plist */,
+			);
+			path = SelwanCafeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFF55F962360336E004D0FD9 /* SelwanCafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF55FB923603372004D0FD9 /* Build configuration list for PBXNativeTarget "SelwanCafe" */;
+			buildPhases = (
+				CFF55F932360336E004D0FD9 /* Sources */,
+				CFF55F942360336E004D0FD9 /* Frameworks */,
+				CFF55F952360336E004D0FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelwanCafe;
+			productName = SelwanCafe;
+			productReference = CFF55F972360336E004D0FD9 /* SelwanCafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF55FAF23603372004D0FD9 /* SelwanCafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF55FBC23603372004D0FD9 /* Build configuration list for PBXNativeTarget "SelwanCafeTests" */;
+			buildPhases = (
+				CFF55FAC23603372004D0FD9 /* Sources */,
+				CFF55FAD23603372004D0FD9 /* Frameworks */,
+				CFF55FAE23603372004D0FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF55FB223603372004D0FD9 /* PBXTargetDependency */,
+			);
+			name = SelwanCafeTests;
+			productName = SelwanCafeTests;
+			productReference = CFF55FB023603372004D0FD9 /* SelwanCafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF55F8F2360336E004D0FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Hussein AlRyalat";
+				TargetAttributes = {
+					CFF55F962360336E004D0FD9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CFF55FAF23603372004D0FD9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CFF55F962360336E004D0FD9;
+					};
+				};
+			};
+			buildConfigurationList = CFF55F922360336E004D0FD9 /* Build configuration list for PBXProject "SelwanCafe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF55F8E2360336E004D0FD9;
+			productRefGroup = CFF55F982360336E004D0FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF55F962360336E004D0FD9 /* SelwanCafe */,
+				CFF55FAF23603372004D0FD9 /* SelwanCafeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF55F952360336E004D0FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF55FAA23603371004D0FD9 /* LaunchScreen.storyboard in Resources */,
+				CFF55FA723603371004D0FD9 /* Assets.xcassets in Resources */,
+				CFF55FA22360336E004D0FD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF55FAE23603372004D0FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF55F932360336E004D0FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF55FA52360336E004D0FD9 /* SelwanCafe.xcdatamodeld in Sources */,
+				CFF55F9F2360336E004D0FD9 /* ViewController.swift in Sources */,
+				CFF55F9B2360336E004D0FD9 /* AppDelegate.swift in Sources */,
+				CFF55F9D2360336E004D0FD9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF55FAC23603372004D0FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF55FB523603372004D0FD9 /* SelwanCafeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFF55FB223603372004D0FD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF55F962360336E004D0FD9 /* SelwanCafe */;
+			targetProxy = CFF55FB123603372004D0FD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFF55FA02360336E004D0FD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF55FA12360336E004D0FD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF55FA823603371004D0FD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF55FA923603371004D0FD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFF55FB723603372004D0FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF55FB823603372004D0FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF55FBA23603372004D0FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VU6999229;
+				INFOPLIST_FILE = SelwanCafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sketch.SelwanCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF55FBB23603372004D0FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VU6999229;
+				INFOPLIST_FILE = SelwanCafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sketch.SelwanCafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFF55FBD23603372004D0FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VU6999229;
+				INFOPLIST_FILE = SelwanCafeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sketch.SelwanCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelwanCafe.app/SelwanCafe";
+			};
+			name = Debug;
+		};
+		CFF55FBE23603372004D0FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VU6999229;
+				INFOPLIST_FILE = SelwanCafeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.sketch.SelwanCafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelwanCafe.app/SelwanCafe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF55F922360336E004D0FD9 /* Build configuration list for PBXProject "SelwanCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF55FB723603372004D0FD9 /* Debug */,
+				CFF55FB823603372004D0FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF55FB923603372004D0FD9 /* Build configuration list for PBXNativeTarget "SelwanCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF55FBA23603372004D0FD9 /* Debug */,
+				CFF55FBB23603372004D0FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF55FBC23603372004D0FD9 /* Build configuration list for PBXNativeTarget "SelwanCafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF55FBD23603372004D0FD9 /* Debug */,
+				CFF55FBE23603372004D0FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFF55FA32360336E004D0FD9 /* SelwanCafe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFF55FA42360336E004D0FD9 /* SelwanCafe.xcdatamodel */,
+			);
+			currentVersion = CFF55FA42360336E004D0FD9 /* SelwanCafe.xcdatamodel */;
+			path = SelwanCafe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFF55F8F2360336E004D0FD9 /* Project object */;
+}
