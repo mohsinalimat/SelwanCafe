@@ -3,18 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		228CACB08D8935CBA7E6811D /* Pods_SelwanCafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454A42201491FD237FD759E4 /* Pods_SelwanCafe.framework */; };
+		427398C4BB9066410D230E40 /* Pods_SelwanCafeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03C6F8FEB4751323D212A2A /* Pods_SelwanCafeTests.framework */; };
+		CF1E943123606265009B4D59 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E943023606265009B4D59 /* Palette.swift */; };
+		CF22C531236078FE00C55817 /* UsersFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22C530236078FE00C55817 /* UsersFetcher.swift */; };
+		CF22C53423607F8700C55817 /* UsersCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22C53323607F8700C55817 /* UsersCollectionDataSource.swift */; };
+		CF22C536236080F300C55817 /* UIViewAutolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22C535236080F300C55817 /* UIViewAutolayout.swift */; };
+		CF22C5392360818000C55817 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22C5382360818000C55817 /* User.swift */; };
+		CF30D46223608FB300535EE9 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30D46123608FB300535EE9 /* FeedbackView.swift */; };
+		CF30D4642360907E00535EE9 /* FetchersDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30D4632360907E00535EE9 /* FetchersDependencies.swift */; };
+		CF30D4672360914000535EE9 /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30D4662360914000535EE9 /* MockUser.swift */; };
+		CF30D4692360918D00535EE9 /* OrderTypesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30D4682360918D00535EE9 /* OrderTypesFetcher.swift */; };
+		CF30D46B2360937F00535EE9 /* UserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30D46A2360937F00535EE9 /* UserImageView.swift */; };
+		CF30D46D23609A8D00535EE9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF30D46C23609A8D00535EE9 /* Fonts.swift */; };
+		CF44B42A2360860E00A7FE4C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF44B4292360860E00A7FE4C /* Order.swift */; };
+		CF44B42C2360861D00A7FE4C /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF44B42B2360861D00A7FE4C /* OrderType.swift */; };
+		CF44B44D236089C800A7FE4C /* CDUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF44B447236089C800A7FE4C /* CDUser.swift */; };
+		CF44B44F236089C800A7FE4C /* CDOrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF44B449236089C800A7FE4C /* CDOrderType.swift */; };
+		CF44B450236089C800A7FE4C /* CDOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF44B44A236089C800A7FE4C /* CDOrder.swift */; };
 		CFF55F9B2360336E004D0FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55F9A2360336E004D0FD9 /* AppDelegate.swift */; };
 		CFF55F9D2360336E004D0FD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55F9C2360336E004D0FD9 /* SceneDelegate.swift */; };
-		CFF55F9F2360336E004D0FD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55F9E2360336E004D0FD9 /* ViewController.swift */; };
 		CFF55FA22360336E004D0FD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FA02360336E004D0FD9 /* Main.storyboard */; };
 		CFF55FA52360336E004D0FD9 /* SelwanCafe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FA32360336E004D0FD9 /* SelwanCafe.xcdatamodeld */; };
 		CFF55FA723603371004D0FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FA623603371004D0FD9 /* Assets.xcassets */; };
 		CFF55FAA23603371004D0FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FA823603371004D0FD9 /* LaunchScreen.storyboard */; };
 		CFF55FB523603372004D0FD9 /* SelwanCafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FB423603372004D0FD9 /* SelwanCafeTests.swift */; };
+		CFF55FC123603595004D0FD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FC023603595004D0FD9 /* HomeViewController.swift */; };
+		CFF55FC32360359D004D0FD9 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FC22360359D004D0FD9 /* CalendarViewController.swift */; };
+		CFF55FC5236035A6004D0FD9 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FC4236035A6004D0FD9 /* PreferencesViewController.swift */; };
+		CFF55FC7236035AE004D0FD9 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FC6236035AE004D0FD9 /* NewOrderViewController.swift */; };
+		CFF55FC9236035B7004D0FD9 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FC8236035B7004D0FD9 /* OrderDetailsViewController.swift */; };
+		CFF55FF7236037FE004D0FD9 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FF5236037FE004D0FD9 /* OrderTableViewCell.swift */; };
+		CFF55FF8236037FE004D0FD9 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FF6236037FE004D0FD9 /* OrderTableViewCell.xib */; };
+		CFF55FFC23603817004D0FD9 /* OrderTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FFA23603817004D0FD9 /* OrderTypeTableViewCell.swift */; };
+		CFF55FFD23603817004D0FD9 /* OrderTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFF55FFB23603817004D0FD9 /* OrderTypeTableViewCell.xib */; };
+		CFF560012360382F004D0FD9 /* UserSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF55FFF2360382F004D0FD9 /* UserSummaryTableViewCell.swift */; };
+		CFF560022360382F004D0FD9 /* UserSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFF560002360382F004D0FD9 /* UserSummaryTableViewCell.xib */; };
+		CFF5600723603857004D0FD9 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF5600523603857004D0FD9 /* UserCollectionViewCell.swift */; };
+		CFF5600823603857004D0FD9 /* UserCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFF5600623603857004D0FD9 /* UserCollectionViewCell.xib */; };
+		CFF5600C2360387A004D0FD9 /* CornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF5600B2360387A004D0FD9 /* CornerButton.swift */; };
+		CFF5600E236038A4004D0FD9 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF5600D236038A4004D0FD9 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +60,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13E235479AF73A8CB989817E /* Pods-SelwanCafeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelwanCafeTests.debug.xcconfig"; path = "Target Support Files/Pods-SelwanCafeTests/Pods-SelwanCafeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18A70B1E390A67925847EB24 /* Pods-SelwanCafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelwanCafe.release.xcconfig"; path = "Target Support Files/Pods-SelwanCafe/Pods-SelwanCafe.release.xcconfig"; sourceTree = "<group>"; };
+		21A1DD4F1C72EA3E82B34ECF /* Pods-SelwanCafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelwanCafe.debug.xcconfig"; path = "Target Support Files/Pods-SelwanCafe/Pods-SelwanCafe.debug.xcconfig"; sourceTree = "<group>"; };
+		454A42201491FD237FD759E4 /* Pods_SelwanCafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelwanCafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902D383F26520EADA2F0406C /* Pods-SelwanCafeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelwanCafeTests.release.xcconfig"; path = "Target Support Files/Pods-SelwanCafeTests/Pods-SelwanCafeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A03C6F8FEB4751323D212A2A /* Pods_SelwanCafeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelwanCafeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1E943023606265009B4D59 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		CF22C530236078FE00C55817 /* UsersFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersFetcher.swift; sourceTree = "<group>"; };
+		CF22C53323607F8700C55817 /* UsersCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCollectionDataSource.swift; sourceTree = "<group>"; };
+		CF22C535236080F300C55817 /* UIViewAutolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAutolayout.swift; sourceTree = "<group>"; };
+		CF22C5382360818000C55817 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CF30D46123608FB300535EE9 /* FeedbackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		CF30D4632360907E00535EE9 /* FetchersDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchersDependencies.swift; sourceTree = "<group>"; };
+		CF30D4662360914000535EE9 /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
+		CF30D4682360918D00535EE9 /* OrderTypesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypesFetcher.swift; sourceTree = "<group>"; };
+		CF30D46A2360937F00535EE9 /* UserImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageView.swift; sourceTree = "<group>"; };
+		CF30D46C23609A8D00535EE9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CF44B4292360860E00A7FE4C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CF44B42B2360861D00A7FE4C /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		CF44B447236089C800A7FE4C /* CDUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDUser.swift; sourceTree = SOURCE_ROOT; };
+		CF44B449236089C800A7FE4C /* CDOrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDOrderType.swift; sourceTree = SOURCE_ROOT; };
+		CF44B44A236089C800A7FE4C /* CDOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDOrder.swift; sourceTree = SOURCE_ROOT; };
 		CFF55F972360336E004D0FD9 /* SelwanCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelwanCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF55F9A2360336E004D0FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFF55F9C2360336E004D0FD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFF55F9E2360336E004D0FD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFF55FA12360336E004D0FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFF55FA42360336E004D0FD9 /* SelwanCafe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SelwanCafe.xcdatamodel; sourceTree = "<group>"; };
 		CFF55FA623603371004D0FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +93,21 @@
 		CFF55FB023603372004D0FD9 /* SelwanCafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelwanCafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF55FB423603372004D0FD9 /* SelwanCafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelwanCafeTests.swift; sourceTree = "<group>"; };
 		CFF55FB623603372004D0FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF55FC023603595004D0FD9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CFF55FC22360359D004D0FD9 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		CFF55FC4236035A6004D0FD9 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		CFF55FC6236035AE004D0FD9 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
+		CFF55FC8236035B7004D0FD9 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
+		CFF55FF5236037FE004D0FD9 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		CFF55FF6236037FE004D0FD9 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		CFF55FFA23603817004D0FD9 /* OrderTypeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeTableViewCell.swift; sourceTree = "<group>"; };
+		CFF55FFB23603817004D0FD9 /* OrderTypeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTypeTableViewCell.xib; sourceTree = "<group>"; };
+		CFF55FFF2360382F004D0FD9 /* UserSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		CFF560002360382F004D0FD9 /* UserSummaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserSummaryTableViewCell.xib; sourceTree = "<group>"; };
+		CFF5600523603857004D0FD9 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		CFF5600623603857004D0FD9 /* UserCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCollectionViewCell.xib; sourceTree = "<group>"; };
+		CFF5600B2360387A004D0FD9 /* CornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerButton.swift; sourceTree = "<group>"; };
+		CFF5600D236038A4004D0FD9 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228CACB08D8935CBA7E6811D /* Pods_SelwanCafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +123,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427398C4BB9066410D230E40 /* Pods_SelwanCafeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059223623147B874F8998635 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21A1DD4F1C72EA3E82B34ECF /* Pods-SelwanCafe.debug.xcconfig */,
+				18A70B1E390A67925847EB24 /* Pods-SelwanCafe.release.xcconfig */,
+				13E235479AF73A8CB989817E /* Pods-SelwanCafeTests.debug.xcconfig */,
+				902D383F26520EADA2F0406C /* Pods-SelwanCafeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		22A194AC027E7C8E4A916ACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				454A42201491FD237FD759E4 /* Pods_SelwanCafe.framework */,
+				A03C6F8FEB4751323D212A2A /* Pods_SelwanCafeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1E942F2360625C009B4D59 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E943023606265009B4D59 /* Palette.swift */,
+				CF30D46C23609A8D00535EE9 /* Fonts.swift */,
+				CF22C535236080F300C55817 /* UIViewAutolayout.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CF22C53223607C2700C55817 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FC023603595004D0FD9 /* HomeViewController.swift */,
+				CF22C53323607F8700C55817 /* UsersCollectionDataSource.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CF22C5372360817700C55817 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CF22C5382360818000C55817 /* User.swift */,
+				CF44B4292360860E00A7FE4C /* Order.swift */,
+				CF44B42B2360861D00A7FE4C /* OrderType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CF30D4652360913200535EE9 /* Mock Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF30D4662360914000535EE9 /* MockUser.swift */,
+			);
+			path = "Mock Model";
+			sourceTree = "<group>";
+		};
+		CF44B445236089AB00A7FE4C /* CoreData Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF44B447236089C800A7FE4C /* CDUser.swift */,
+				CF44B449236089C800A7FE4C /* CDOrderType.swift */,
+				CF44B44A236089C800A7FE4C /* CDOrder.swift */,
+			);
+			path = "CoreData Model";
+			sourceTree = "<group>";
+		};
 		CFF55F8E2360336E004D0FD9 = {
 			isa = PBXGroup;
 			children = (
 				CFF55F992360336E004D0FD9 /* SelwanCafe */,
 				CFF55FB323603372004D0FD9 /* SelwanCafeTests */,
 				CFF55F982360336E004D0FD9 /* Products */,
+				059223623147B874F8998635 /* Pods */,
+				22A194AC027E7C8E4A916ACA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +220,15 @@
 		CFF55F992360336E004D0FD9 /* SelwanCafe */ = {
 			isa = PBXGroup;
 			children = (
+				CF1E942F2360625C009B4D59 /* Constants */,
+				CFF55FF3236037DC004D0FD9 /* Views */,
+				CFF55FEF2360379A004D0FD9 /* Controllers */,
+				CFF55FD6236036DD004D0FD9 /* Model */,
+				CFF55FBF2360358A004D0FD9 /* Screens */,
 				CFF55F9A2360336E004D0FD9 /* AppDelegate.swift */,
 				CFF55F9C2360336E004D0FD9 /* SceneDelegate.swift */,
-				CFF55F9E2360336E004D0FD9 /* ViewController.swift */,
-				CFF55FA02360336E004D0FD9 /* Main.storyboard */,
-				CFF55FA623603371004D0FD9 /* Assets.xcassets */,
-				CFF55FA823603371004D0FD9 /* LaunchScreen.storyboard */,
-				CFF55FAB23603371004D0FD9 /* Info.plist */,
-				CFF55FA32360336E004D0FD9 /* SelwanCafe.xcdatamodeld */,
+				CF30D46123608FB300535EE9 /* FeedbackView.swift */,
+				CFF5600F236038BF004D0FD9 /* Resources */,
 			);
 			path = SelwanCafe;
 			sourceTree = "<group>";
@@ -102,6 +242,148 @@
 			path = SelwanCafeTests;
 			sourceTree = "<group>";
 		};
+		CFF55FBF2360358A004D0FD9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CF22C53223607C2700C55817 /* Home */,
+				CFF55FC22360359D004D0FD9 /* CalendarViewController.swift */,
+				CFF55FC4236035A6004D0FD9 /* PreferencesViewController.swift */,
+				CFF55FC6236035AE004D0FD9 /* NewOrderViewController.swift */,
+				CFF55FC8236035B7004D0FD9 /* OrderDetailsViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CFF55FD6236036DD004D0FD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF30D4652360913200535EE9 /* Mock Model */,
+				CF44B445236089AB00A7FE4C /* CoreData Model */,
+				CF22C5372360817700C55817 /* Protocols */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFF55FEF2360379A004D0FD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FF2236037B8004D0FD9 /* Fetchers */,
+				CFF55FF1236037B0004D0FD9 /* Formatters */,
+				CFF55FF0236037A8004D0FD9 /* Persistance */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CFF55FF0236037A8004D0FD9 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		CFF55FF1236037B0004D0FD9 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		CFF55FF2236037B8004D0FD9 /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				CF30D4632360907E00535EE9 /* FetchersDependencies.swift */,
+				CF22C530236078FE00C55817 /* UsersFetcher.swift */,
+				CF30D4682360918D00535EE9 /* OrderTypesFetcher.swift */,
+			);
+			path = Fetchers;
+			sourceTree = "<group>";
+		};
+		CFF55FF3236037DC004D0FD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFF5600A2360386E004D0FD9 /* General */,
+				CFF5600423603846004D0FD9 /* Collection Cells */,
+				CFF55FF4236037E8004D0FD9 /* Table Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFF55FF4236037E8004D0FD9 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FFE2360381A004D0FD9 /* Order Type */,
+				CFF55FF923603801004D0FD9 /* Order Cell */,
+				CFF5600323603835004D0FD9 /* User Summary */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
+		CFF55FF923603801004D0FD9 /* Order Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FF5236037FE004D0FD9 /* OrderTableViewCell.swift */,
+				CFF55FF6236037FE004D0FD9 /* OrderTableViewCell.xib */,
+			);
+			path = "Order Cell";
+			sourceTree = "<group>";
+		};
+		CFF55FFE2360381A004D0FD9 /* Order Type */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FFA23603817004D0FD9 /* OrderTypeTableViewCell.swift */,
+				CFF55FFB23603817004D0FD9 /* OrderTypeTableViewCell.xib */,
+			);
+			path = "Order Type";
+			sourceTree = "<group>";
+		};
+		CFF5600323603835004D0FD9 /* User Summary */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FFF2360382F004D0FD9 /* UserSummaryTableViewCell.swift */,
+				CFF560002360382F004D0FD9 /* UserSummaryTableViewCell.xib */,
+			);
+			path = "User Summary";
+			sourceTree = "<group>";
+		};
+		CFF5600423603846004D0FD9 /* Collection Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFF560092360385A004D0FD9 /* User */,
+			);
+			path = "Collection Cells";
+			sourceTree = "<group>";
+		};
+		CFF560092360385A004D0FD9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CFF5600523603857004D0FD9 /* UserCollectionViewCell.swift */,
+				CFF5600623603857004D0FD9 /* UserCollectionViewCell.xib */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CFF5600A2360386E004D0FD9 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CFF5600B2360387A004D0FD9 /* CornerButton.swift */,
+				CFF5600D236038A4004D0FD9 /* BackgroundView.swift */,
+				CF30D46A2360937F00535EE9 /* UserImageView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		CFF5600F236038BF004D0FD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFF55FA02360336E004D0FD9 /* Main.storyboard */,
+				CFF55FA823603371004D0FD9 /* LaunchScreen.storyboard */,
+				CFF55FAB23603371004D0FD9 /* Info.plist */,
+				CFF55FA623603371004D0FD9 /* Assets.xcassets */,
+				CFF55FA32360336E004D0FD9 /* SelwanCafe.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +391,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF55FB923603372004D0FD9 /* Build configuration list for PBXNativeTarget "SelwanCafe" */;
 			buildPhases = (
+				04B5809C432807C4EEE5554E /* [CP] Check Pods Manifest.lock */,
 				CFF55F932360336E004D0FD9 /* Sources */,
 				CFF55F942360336E004D0FD9 /* Frameworks */,
 				CFF55F952360336E004D0FD9 /* Resources */,
+				5B7D92CF7A4967606B801FA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF55FBC23603372004D0FD9 /* Build configuration list for PBXNativeTarget "SelwanCafeTests" */;
 			buildPhases = (
+				19FC48BD1D66DC0318FE0125 /* [CP] Check Pods Manifest.lock */,
 				CFF55FAC23603372004D0FD9 /* Sources */,
 				CFF55FAD23603372004D0FD9 /* Frameworks */,
 				CFF55FAE23603372004D0FD9 /* Resources */,
@@ -184,7 +469,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFF55FAA23603371004D0FD9 /* LaunchScreen.storyboard in Resources */,
+				CFF560022360382F004D0FD9 /* UserSummaryTableViewCell.xib in Resources */,
+				CFF5600823603857004D0FD9 /* UserCollectionViewCell.xib in Resources */,
 				CFF55FA723603371004D0FD9 /* Assets.xcassets in Resources */,
+				CFF55FF8236037FE004D0FD9 /* OrderTableViewCell.xib in Resources */,
+				CFF55FFD23603817004D0FD9 /* OrderTypeTableViewCell.xib in Resources */,
 				CFF55FA22360336E004D0FD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,14 +487,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04B5809C432807C4EEE5554E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelwanCafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19FC48BD1D66DC0318FE0125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelwanCafeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B7D92CF7A4967606B801FA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelwanCafe/Pods-SelwanCafe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelwanCafe/Pods-SelwanCafe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelwanCafe/Pods-SelwanCafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFF55F932360336E004D0FD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF44B42C2360861D00A7FE4C /* OrderType.swift in Sources */,
+				CF44B450236089C800A7FE4C /* CDOrder.swift in Sources */,
+				CFF55FFC23603817004D0FD9 /* OrderTypeTableViewCell.swift in Sources */,
+				CFF55FC32360359D004D0FD9 /* CalendarViewController.swift in Sources */,
+				CF44B44F236089C800A7FE4C /* CDOrderType.swift in Sources */,
+				CFF5600C2360387A004D0FD9 /* CornerButton.swift in Sources */,
+				CF1E943123606265009B4D59 /* Palette.swift in Sources */,
+				CF30D4672360914000535EE9 /* MockUser.swift in Sources */,
+				CFF55FC123603595004D0FD9 /* HomeViewController.swift in Sources */,
+				CF22C536236080F300C55817 /* UIViewAutolayout.swift in Sources */,
+				CFF55FC9236035B7004D0FD9 /* OrderDetailsViewController.swift in Sources */,
 				CFF55FA52360336E004D0FD9 /* SelwanCafe.xcdatamodeld in Sources */,
-				CFF55F9F2360336E004D0FD9 /* ViewController.swift in Sources */,
+				CFF5600E236038A4004D0FD9 /* BackgroundView.swift in Sources */,
+				CF30D4642360907E00535EE9 /* FetchersDependencies.swift in Sources */,
+				CF22C5392360818000C55817 /* User.swift in Sources */,
+				CFF55FF7236037FE004D0FD9 /* OrderTableViewCell.swift in Sources */,
+				CF30D46D23609A8D00535EE9 /* Fonts.swift in Sources */,
+				CFF55FC7236035AE004D0FD9 /* NewOrderViewController.swift in Sources */,
+				CFF5600723603857004D0FD9 /* UserCollectionViewCell.swift in Sources */,
+				CF30D46223608FB300535EE9 /* FeedbackView.swift in Sources */,
+				CFF560012360382F004D0FD9 /* UserSummaryTableViewCell.swift in Sources */,
+				CF22C531236078FE00C55817 /* UsersFetcher.swift in Sources */,
+				CF22C53423607F8700C55817 /* UsersCollectionDataSource.swift in Sources */,
 				CFF55F9B2360336E004D0FD9 /* AppDelegate.swift in Sources */,
+				CFF55FC5236035A6004D0FD9 /* PreferencesViewController.swift in Sources */,
+				CF30D46B2360937F00535EE9 /* UserImageView.swift in Sources */,
+				CF30D4692360918D00535EE9 /* OrderTypesFetcher.swift in Sources */,
+				CF44B42A2360860E00A7FE4C /* Order.swift in Sources */,
+				CF44B44D236089C800A7FE4C /* CDUser.swift in Sources */,
 				CFF55F9D2360336E004D0FD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,11 +743,12 @@
 		};
 		CFF55FBA23603372004D0FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A1DD4F1C72EA3E82B34ECF /* Pods-SelwanCafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VU6999229;
-				INFOPLIST_FILE = SelwanCafe/Info.plist;
+				INFOPLIST_FILE = SelwanCafe/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,11 +762,12 @@
 		};
 		CFF55FBB23603372004D0FD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A70B1E390A67925847EB24 /* Pods-SelwanCafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VU6999229;
-				INFOPLIST_FILE = SelwanCafe/Info.plist;
+				INFOPLIST_FILE = SelwanCafe/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +781,7 @@
 		};
 		CFF55FBD23603372004D0FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E235479AF73A8CB989817E /* Pods-SelwanCafeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +804,7 @@
 		};
 		CFF55FBE23603372004D0FD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902D383F26520EADA2F0406C /* Pods-SelwanCafeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

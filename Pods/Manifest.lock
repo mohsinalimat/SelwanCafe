@@ -1,0 +1,24 @@
+PODS:
+  - BottomPopup (0.5.0)
+  - GenericDataSources (3.0.3)
+  - Parchment (1.7.0)
+
+DEPENDENCIES:
+  - BottomPopup
+  - GenericDataSources
+  - Parchment
+
+SPEC REPOS:
+  trunk:
+    - BottomPopup
+    - GenericDataSources
+    - Parchment
+
+SPEC CHECKSUMS:
+  BottomPopup: d487f2fd398805f07e4563a29cf79233f531cbe7
+  GenericDataSources: 4e9150bd121d92ee152c5f5c5dcd15d74e609d75
+  Parchment: cae686f73685d16742cec9c19239b7578a15f0f5
+
+PODFILE CHECKSUM: f3b972d70ec64a11205b45c7d7fd824c51e181ec
+
+COCOAPODS: 1.8.3

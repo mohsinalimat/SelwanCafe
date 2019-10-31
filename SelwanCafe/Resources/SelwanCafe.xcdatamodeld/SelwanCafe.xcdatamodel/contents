@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19A602" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CDOrder" representedClassName=".CDOrder" syncable="YES">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="593527500" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="CDOrderType" inverseName="orders" inverseEntity="CDOrderType"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDUser" inverseName="orders" inverseEntity="CDUser"/>
+    </entity>
+    <entity name="CDOrderType" representedClassName=".CDOrderType" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="priceValue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDOrder" inverseName="type" inverseEntity="CDOrder"/>
+    </entity>
+    <entity name="CDUser" representedClassName=".CDUser" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isHussein" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="orders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDOrder" inverseName="user" inverseEntity="CDOrder"/>
+    </entity>
+    <elements>
+        <element name="CDOrder" positionX="35.32421875" positionY="148.41796875" width="128" height="103"/>
+        <element name="CDOrderType" positionX="-208.03515625" positionY="105.40625" width="128" height="103"/>
+        <element name="CDUser" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>
